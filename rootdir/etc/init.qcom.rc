@@ -94,7 +94,8 @@ on late-init
 on post-fs
     chmod 0755 /sys/kernel/debug/tracing
 
-on early-boot
+    write /sys/class/graphics/fb0/idle_time 100
+
     # set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
     # Allow subsystem (modem etc) debugging
