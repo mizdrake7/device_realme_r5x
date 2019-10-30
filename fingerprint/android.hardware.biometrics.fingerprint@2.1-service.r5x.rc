@@ -5,4 +5,3 @@ service vendor.fps_hal.r5x /vendor/bin/hw/android.hardware.biometrics.fingerprin
     class late_start
     user system
     group system input uhid
-    writepid /dev/cpuset/system-background/tasks
