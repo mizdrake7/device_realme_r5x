@@ -277,6 +277,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
     init.target.rc \
+    init.r5x.rc \
     ueventd.qcom.rc
 
 # IPv6
