@@ -696,5 +696,9 @@ PRODUCT_USES_QCOM_HARDWARE := true
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1280
 
+# Google Photos
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pixel_2016_exclusive.xml
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/realme/r5x/r5x-vendor.mk)
