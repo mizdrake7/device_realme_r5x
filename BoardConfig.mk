@@ -199,7 +199,9 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
 TARGET_USES_INTERACTION_BOOST := true
 
-# Recovery
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_HAS_LARGE_FILESYSTEM := true
