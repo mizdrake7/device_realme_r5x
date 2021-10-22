@@ -719,5 +719,9 @@ $(call inherit-product, packages/apps/RealmeDirac/dirac.mk)
 TARGET_EXCLUDES_AUDIOFX := true
 TARGET_EXCLUDES_MUSICFX := true
 
+# Remove Unwanted Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/realme/r5x/r5x-vendor.mk)
