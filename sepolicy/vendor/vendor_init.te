@@ -20,3 +20,7 @@ set_prop(vendor_init, vendor_media_prop)
 set_prop(vendor_init, vendor_ims_prop)
 set_prop(vendor_init, vendor_radio_prop)
 set_prop(vendor_init, vendor_time_prop)
+
+# Allow vendor_init to set vendor_camera_prop
+set_prop(vendor_init, vendor_camera_prop) 
+set_prop(vendor_init, vendor_persist_camera_prop)
