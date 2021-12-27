@@ -693,5 +693,8 @@ PRODUCT_PACKAGES += \
 TARGET_BOARD_PLATFORM := trinket
 PRODUCT_USES_QCOM_HARDWARE := true
 
+# Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1280
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/realme/r5x/r5x-vendor.mk)

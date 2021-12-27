@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The CherishOS Project
+# Copyright (C) 2018-2019 The VoltageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_r5x.mk
+    $(LOCAL_DIR)/voltage_r5x.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_r5x-user \
-    cherish_r5x-userdebug \
-    cherish_r5x-eng
+    voltage_r5x-user \
+    voltage_r5x-userdebug \
+    voltage_r5x-eng
