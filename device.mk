@@ -689,5 +689,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor \
     libtinyxml.vendor
 
+# Board
+TARGET_BOARD_PLATFORM := trinket
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/realme/r5x/r5x-vendor.mk)
