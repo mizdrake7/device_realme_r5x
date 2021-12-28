@@ -39,6 +39,9 @@ persist.vendor.dpmhalservice.enable=1
 # Data
 persist.data.df.dev_name=rmnet_usb0
 
+# Fingerprint
+fingerprint.nocleanup=true
+
 # Fwk detect
 ro.vendor.qti.va_odm.support=1
 
