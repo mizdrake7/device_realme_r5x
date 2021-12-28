@@ -101,3 +101,13 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 # Quick Power ON/OFF
 ro.config.hw_quickpoweron=true
 sys.vendor.shutdown.waittime=500
+
+# Surfaceflinger
+ro.surface_flinger.protected_contents=true 
+ro.surface_flinger.use_smart_90_for_video=true 
+ro.surface_flinger.set_display_power_timer_ms=10000 
+ro.surface_flinger.set_touch_timer_ms=5000 
+ro.surface_flinger.set_idle_timer_ms=9000 
+ro.surface_flinger.wcg_composition_dataspace=143261696
+debug.sf.disable_backpressure=1
+
