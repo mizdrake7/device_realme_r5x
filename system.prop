@@ -111,3 +111,10 @@ ro.surface_flinger.set_idle_timer_ms=9000
 ro.surface_flinger.wcg_composition_dataspace=143261696
 debug.sf.disable_backpressure=1
 
+# Memory Management Tweaks
+ro.config.fha_enable=true ro.sys.fw.bg_apps_limit=32 
+ro.config.dha_cached_max=16 ro.config.dha_empty_max=42 
+ro.config.dha_empty_init=32 
+ro.config.dha_lmk_scale=0.545 ro.config.dha_th_rate=2.3 
+ro.config.sdha_apps_bg_max=64
+ro.config.sdha_apps_bg_min=8
