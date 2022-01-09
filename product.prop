@@ -14,3 +14,5 @@ persist.vendor.ims.disableDebugLogs=1
 persist.vendor.ims.disableIMSLogs=1
 persist.vendor.ims.disableQXDMLogs=1
 
+# Set rendering pipeline mode to Vulkan
+debug.hwui.renderer=skiavk
