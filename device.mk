@@ -705,5 +705,8 @@ TARGET_BOOT_ANIMATION_RES := 1280
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pixel_2016_exclusive.xml
 
+# RealmeDirac
+$(call inherit-product, packages/apps/RealmeDirac/dirac.mk)
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/realme/r5x/r5x-vendor.mk)
