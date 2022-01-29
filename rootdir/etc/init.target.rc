@@ -509,3 +509,6 @@ on property:sys.boot_completed=1
     write /sys/block/sdd/queue/read_ahead_kb 128
     write /sys/block/sde/queue/read_ahead_kb 128
     write /sys/block/sdf/queue/read_ahead_kb 128
+
+# Reinit lmkd to reconfigure lmkd properties
+    setprop lmkd.reinit 1
