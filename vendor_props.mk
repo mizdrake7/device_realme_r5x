@@ -270,5 +270,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.aware.interface=wifi-aware0
 
-#Graphics
+# Graphics
+PRODUCT_PROPERTY_OVERRIDES += \
+vendor.display.disable_rotator_downscale=1 \
+vendor.display.disable_scaler=0 \
 debug.sdm.support_writeback=0
