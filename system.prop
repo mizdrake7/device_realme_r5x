@@ -137,3 +137,6 @@ ro.config.sdha_apps_bg_min=8
 # MemPlus Prefetcher
 persist.vendor.sys.memplus.enable=false
 
+# QTI Mem Optimisation
+ro.vendor.qti.sys.fw.bg_apps_limit=30
+ro.vendor.qti.sys.fw.bservice_limit=60
