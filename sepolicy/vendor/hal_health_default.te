@@ -1,2 +1,7 @@
 allow hal_health_default sysfs_usb_supply:file { read open getattr };
 allow hal_health_default sysfs_hal_health_default:file { read open getattr };
+allow hal_health_default sysfs:file { getattr  open  read };
+allow hal_sensors_default sysfs:file { open  read };
+allow hal_sensors_default sysfs:dir { open  read };
+allow hal_sensors_default mnt_vendor_file:file { getattr  open  read };
+allow hal_sensors_default hal_sensors_default:qipcrtr_socket { create  getattr  read  write };

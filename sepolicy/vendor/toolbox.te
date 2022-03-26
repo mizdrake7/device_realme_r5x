@@ -1,2 +1,3 @@
 allow toolbox toolbox:capability { kill };
 allow toolbox self:capability kill;
+allow toolbox ram_device:blk_file { getattr  ioctl  open  read }; 

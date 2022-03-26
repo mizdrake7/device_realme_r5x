@@ -1,6 +1,7 @@
 allow hal_audio_default sysfs:dir { read open }; 
 r_dir_file(hal_audio_default, proc_oppoversion);
-
+allow hal_audio_default vendor_data_file:file { create  getattr  open  read };
+allow hal_audio_default vendor_data_file:dir { add_name  write };
 get_prop(hal_audio_default, vendor_mpctl_prop);
 get_prop(hal_audio_default, oppo_debug_prop);
 

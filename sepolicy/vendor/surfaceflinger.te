@@ -1,3 +1,10 @@
 allow surfaceflinger firmware_file:dir { search };
 allow surfaceflinger vendor_firmware_file:dir { search };
 allow surfaceflinger vendor_firmware_file:file { read open };
+allow surfaceflinger vendor_file:file { execute  getattr  map  open  read };
+allow surfaceflinger vendor_default_prop:file { getattr  map  open }; 
+allow surfaceflinger sysfs:file { getattr  open  read };
+allow surfaceflinger init:binder { call };
+allow surfaceflinger device:chr_file { ioctl  map  open  read  write };
+allow surfaceflinger default_android_service:service_manager { find };
+allow surfaceflinger default_android_hwservice:hwservice_manager { find };

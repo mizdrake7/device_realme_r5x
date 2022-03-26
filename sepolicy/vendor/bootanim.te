@@ -1,1 +1,8 @@
 allow bootanim system_data_file:dir { read };
+allow bootanim vendor_file:file { execute  getattr  map  open  read };
+allow bootanim vendor_default_prop:file { getattr  map  open };
+allow bootanim system_data_file:dir { read };
+allow bootanim sysfs:file { getattr  open  read };
+allow bootanim init:binder { call };
+allow bootanim device:chr_file { ioctl  map  open  read };
+allow bootanim default_android_hwservice:hwservice_manager { find };

@@ -1,3 +1,4 @@
 allow vndservicemanager oppoalgo_daemon:dir { search };
 allow vndservicemanager oppoalgo_daemon:file { read write open };
 allow vndservicemanager oppoalgo_daemon:process { getattr };
+allow vndservicemanager init:binder { transfer };

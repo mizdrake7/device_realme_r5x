@@ -1,2 +1,5 @@
 allow logpersist cache_file:dir { write add_name read open };
 allow logpersist cache_file:file { open ioctl getattr };
+allow logpersist logpersist:capability { dac_override  dac_read_search };
+allow logpersist cache_file:file { append  create  getattr  ioctl  open  read };
+allow logpersist cache_file:dir { add_name  open  read  write };
