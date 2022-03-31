@@ -71,3 +71,5 @@ allow init device:chr_file { getattr  ioctl  open  read  write };
 allow init default_android_vndservice:service_manager { add  find };
 allow init default_android_service:service_manager { add };
 allow init default_android_hwservice:hwservice_manager { add  find };
+allow init init:qipcrtr_socket { getattr };
+allow init init:qipcrtr_socket { read  write };
