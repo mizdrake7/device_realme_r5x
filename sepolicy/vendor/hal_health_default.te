@@ -6,3 +6,4 @@ allow hal_sensors_default sysfs:dir { open  read };
 allow hal_sensors_default mnt_vendor_file:file { getattr  open  read };
 allow hal_sensors_default hal_sensors_default:qipcrtr_socket { create  getattr  read  write };
 allow hal_health_default mnt_vendor_file:dir { search write };
+allow hal_health_default mnt_vendor_file:file { read };

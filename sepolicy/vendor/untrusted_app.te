@@ -1,0 +1,2 @@
+allow untrusted_app virtual_ab_prop:file { read };
+allow untrusted_app zygote:unix_stream_socket { getopt };
