@@ -77,3 +77,4 @@ ro.logdumpd.enabled                  u:object_r:oppo_debug_prop:s0
 vendor.camera.                     u:object_r:vendor_camera_prop:s0
 vendor.camera.aux.                 u:object_r:vendor_camera_prop:s0
 persist.radio.is_vonr_enabled_1      u:object_r:radio_prop:s0 
+persist.radio.is_vonr_enabled_0      u:object_r:radio_prop:s0
