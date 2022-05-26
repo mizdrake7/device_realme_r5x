@@ -45,6 +45,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="trinket-user 10 QKQ1.200209.002 release-keys"
 
 # CorvusOS
-RAVEN_LAIR=Beta-Official
+RAVEN_LAIR=Official
 CORVUS_MAINTAINER=MAdMiZ
 USE_GAPPS=true
+USE_PROTON := true
