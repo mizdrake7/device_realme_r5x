@@ -152,10 +152,6 @@ PRODUCT_PACKAGES += \
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 
-# Dirac
-#PRODUCT_PACKAGES += \
-    KharaMeDirac
-
 # Crypto
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.crypto.volume.filenames_mode=aes-256-cts
@@ -633,7 +629,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pixel_2016_exclusive.xml
 
 # RealmeDirac
-$(call inherit-product, packages/apps/RealmeDirac/dirac.mk)
+PRODUCT_PACKAGES += \
+    RealmeDirac
 
 TARGET_EXCLUDES_AUDIOFX := true
 TARGET_EXCLUDES_MUSICFX := true
