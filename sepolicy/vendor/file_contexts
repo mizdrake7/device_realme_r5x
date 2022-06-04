@@ -73,3 +73,6 @@
 # vbswap device for zswap
 /dev/block/vbswap0         u:object_r:swap_block_device:s0
 
+# NFC
+/dev/p73                  u:object_r:nfc_device:s0
+/dev/pn553                u:object_r:nfc_device:s0
