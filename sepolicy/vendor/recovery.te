@@ -1,0 +1,5 @@
+allow recovery hal_gatekeeper_hwservice:hwservice_manager { add  find };
+allow recovery hal_keymaster_hwservice:hwservice_manager { add };
+allow recovery hidl_base_hwservice:hwservice_manager { add };
+allow recovery hidl_manager_hwservice:hwservice_manager { add };
+allow recovery hidl_token_hwservice:hwservice_manager { add };
