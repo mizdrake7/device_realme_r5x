@@ -57,4 +57,5 @@
 /devices/platform/soc/1da4000.ufshc_card/host*          /storage/sdcard1         vfat    nosuid,nodev                                         wait,voldmanaged=sdcard1:auto,encryptable=footer
 /devices/platform/soc/*.ssusb/*.dwc3/xhci-hcd.0.auto*   auto                      auto    defaults                                             wait,voldmanaged=usbotg:auto
 
-/dev/block/vbswap0					none                     swap     defaults					      defaults
+# ZRAM
+/dev/block/zram0                                        none               swap    defaults                                             zramsize=2147483648,max_comp_streams=8
