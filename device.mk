@@ -50,11 +50,6 @@ PRODUCT_PACKAGES += \
     AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
-# Authsecret
-PRODUCT_PACKAGES += \
-	android.hardware.authsecret@1.0 \
-	android.hardware.authsecret@1.0-service
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
