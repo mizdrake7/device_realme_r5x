@@ -71,6 +71,7 @@ persist.vendor.delta.                                       u:object_r:vendor_ti
 
 # Dirac
 persist.audio.dirac                           u:object_r:dirac_prop:s0
+audio.dirac.logging                           u:object_r:dirac_prop:s0
 
 ro.bluetooth.ftm_enabled             u:object_r:oppo_debug_prop:s0
 persist.env.fastdorm.enabled                  u:object_r:oppo_debug_prop:s0
