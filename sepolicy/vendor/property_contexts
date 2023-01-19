@@ -30,6 +30,7 @@ persist.camera.                         u:object_r:vendor_camera_prop:s0
 ro.camera.                              u:object_r:vendor_camera_prop:s0
 persist.oppo.camera.                    u:object_r:vendor_camera_prop:s0
 vendor.oppo.camera.                     u:object_r:vendor_camera_prop:s0
+zoom.eis.enable                         u:object_r:vendor_camera_prop:s0
 audio.camerasound.                      u:object_r:vendor_default_prop:s0
 
 # Oppo debug props
