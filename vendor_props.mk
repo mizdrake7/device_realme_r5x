@@ -143,6 +143,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.sf.color_saturation=1.2 \
     persist.sys.sf.native_mode=0 \
     debug.sf.disable_client_composition_cache=1 \
+    debug.sf.layer_caching_active_layer_timeout_ms=1000 \
     debug.sf.enable_gl_backpressure=1 \
     ro.opengles.version=196610 \
     ro.vendor.display.cabl=0 \
