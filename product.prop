@@ -31,6 +31,7 @@ bluetooth.profile.vcp.controller.enabled=true
 ro.config.low_ram=false
 ro.lmk.log_stats=true
 ro.config.per_app_memcg=false
+ro.lmk.filecache_min_kb=153600
 
 # Graphics
 debug.hwui.renderer=skiagl
