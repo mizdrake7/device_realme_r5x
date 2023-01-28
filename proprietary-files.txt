@@ -2157,6 +2157,7 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so|eafe7c9254077253ad9512fa5622948954769
 
 # Fingerprint
 vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service
+vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service-rbs
 vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib/libalipay_factory.so
 vendor/lib/librpmbengclient.so
