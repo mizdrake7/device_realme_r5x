@@ -39,12 +39,6 @@ on early-init
     symlink /vendor/bt_firmware /bt_firmware
     symlink /vendor/dsp /dsp
 
-  # Change ownership of hw_recovery related nodes
-    chown system graphics /sys/kernel/debug/dri/0/debug/dump
-    chown system graphics /sys/kernel/debug/dri/0/debug/recovery_reg
-    chown system graphics /sys/kernel/debug/dri/0/debug/recovery_dbgbus
-    chown system graphics /sys/kernel/debug/dri/0/debug/recovery_vbif_dbgbus
-
     chown system system /sys/kernel/oppo_display/shutdownflag
     chmod 0666 /sys/kernel/oppo_display/shutdownflag
 
