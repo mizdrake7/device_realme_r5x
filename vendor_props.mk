@@ -128,7 +128,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.image-dex2oat-filter=quicken \
     dalvik.vm.image-dex2oat-threads=8 \
     dalvik.vm.dexopt.secondary=true \
-    persist.bg.dexopt.enable=true
+    persist.bg.dexopt.enable=true \
+    dalvik.vm.dex2oat-minidebuginfo=false \
+    dalvik.vm.minidebuginfo=false
 
 # Data
 PRODUCT_PROPERTY_OVERRIDES += \
