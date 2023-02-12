@@ -26,6 +26,7 @@ bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 bluetooth.profile.ccp.server.enabled=true
 bluetooth.profile.vcp.controller.enabled=true
+bluetooth.hardware.power.operating_voltage_mv=3300
 
 # LMKD
 ro.config.low_ram=false
