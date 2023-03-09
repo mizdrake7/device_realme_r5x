@@ -182,9 +182,6 @@ ODM_MANIFEST_NFC_ESE_FILES := $(DEVICE_PATH)/configs/manifests/manifest_nfc_ese.
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 
-# Keystore
-TARGET_PROVIDES_KEYMASTER := true
-
 # Media
 TARGET_DISABLED_UBWC := true
 
