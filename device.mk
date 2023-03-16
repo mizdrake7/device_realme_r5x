@@ -52,7 +52,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     audio.primary.trinket \
     audio.r_submix.default \
-    audio.usb.default \
+    audio.usbv2.default \
     libaudio-resampler \
     libaudiopreprocessing \
     libhdmiedid \
