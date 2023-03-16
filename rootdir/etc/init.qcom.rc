@@ -589,11 +589,13 @@ service vendor.qrtr-ns /vendor/bin/qrtr-ns -f
     user vendor_qrtr
     group vendor_qrtr
     capabilities NET_BIND_SERVICE
+    task_profiles ServiceCapacityLow
 
 service vendor.irsc_util /vendor/bin/irsc_util "/vendor/etc/sec_config"
     class core
     user root
     oneshot
+    task_profiles ServiceCapacityLow
 
 service vendor.bt-dun /system/bin/dun-server /dev/smd7 /dev/rfcomm0
     class late_start
@@ -632,6 +634,7 @@ service vendor.sensors.qti /vendor/bin/sensors.qti
     class core
     user system
     group system
+    task_profiles ServiceCapacityLow
     disabled
 
 # Data Migration
@@ -717,6 +720,7 @@ service cnss-daemon /system/vendor/bin/cnss-daemon -n -l
     user system
     group system inet net_admin wifi
     capabilities NET_ADMIN
+    task_profiles ServiceCapacityLow
 
 on property:sys.shutdown.requested=*
     write /sys/kernel/shutdown_wlan/shutdown 1
@@ -748,6 +752,7 @@ service loc_launcher /system/vendor/bin/loc_launcher
     class late_start
     user gps
     group gps
+    task_profiles ServiceCapacityLow
 
 on property:crypto.driver.load=1
     insmod /system/lib/modules/qce.ko
@@ -810,6 +815,7 @@ service vendor.atfwd /vendor/bin/ATFWD-daemon
     class late_start
     user system
     group system radio
+    task_profiles ServiceCapacityLow
 
 service hostapd_fst /vendor/bin/hw/hostapd -dd -g /data/vendor/wifi/hostapd/global
     class main
@@ -912,6 +918,7 @@ service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/m
     class core
     user root
     group root
+    task_profiles ServiceCapacityLow
     disabled
 
 service vendor.msm_irqbal_lb /vendor/bin/msm_irqbalance -f /system/vendor/etc/msm_irqbalance_little_big.conf
@@ -1086,6 +1093,7 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     class hal
     user nfc
     group nfc
+    task_profiles ServiceCapacityLow
     disabled
 
 on property:ro.boot.product.hardware.sku=nfc_ese
