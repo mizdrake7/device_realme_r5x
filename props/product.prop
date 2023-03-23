@@ -41,6 +41,7 @@ ro.lmk.use_minfree_levels=true
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
+debug.hwui.skia_atrace_enabled=false
 
 # Kill Logspams
 persist.vendor.ims.disableADBLogs=1
