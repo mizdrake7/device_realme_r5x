@@ -45,3 +45,7 @@ type public_adsprpcd_file, file_type;
 
 # Power-Libperfmgr
 type pps_socket, file_type;
+
+# RealmeParts
+type kcal_sysfs, sysfs_type, fs_type;
+type sysfs_usb_fastcharge, sysfs_type, fs_type;

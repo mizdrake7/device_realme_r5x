@@ -454,6 +454,10 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# RealmeParts
+PRODUCT_PACKAGES += \
+    RealmeParts
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.4 \
