@@ -303,6 +303,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.r5x.rc \
     set_baseband.sh \
+    fastcharge.sh \
     ueventd.qcom.rc
 
 # IPv6
