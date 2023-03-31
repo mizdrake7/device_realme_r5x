@@ -72,6 +72,7 @@ ro.hwui.text_small_cache_width=1024
 ro.hwui.text_small_cache_height=1024
 ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=1024
+ro.hwui.render_ahead=20
 
 # Iorap
 vendor.iop.enable_prefetch_ofr=0
