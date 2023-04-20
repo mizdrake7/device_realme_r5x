@@ -955,11 +955,6 @@ service vendor.LKCore-rel /vendor/bin/LKCore
     user system
     group system log diag
 
-service qseeproxydaemon /system/vendor/bin/qseeproxydaemon
-    class late_start
-    user system
-    group system
-
 on charger
     start charger
     setprop persist.sys.usb.config mass_storage
