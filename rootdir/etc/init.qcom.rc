@@ -129,6 +129,7 @@ on early-boot
     # Enable idle state listener
     write /sys/class/drm/card0/device/idle_encoder_mask 1
     write /sys/class/drm/card0/device/idle_timeout_ms 100
+    stop console
 
 on boot
     chown bluetooth bluetooth /sys/module/bluetooth_power/parameters/power
