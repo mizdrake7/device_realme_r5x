@@ -122,10 +122,6 @@ vendor/lib64/libbluetooth_audio_session_qti.so|90430a61679eb0434b6b6aa6abde57e70
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|d7dccf2f3994c6a44f1316949cf882e29b6ba5ea
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|f2d4969eb33ac0204fc286cc72e2a3560ba2413e
 
-# Bluetooth aptX - from sunfish-user-11-RQ3A.210705.001-7380771-release-keys
-system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
-system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
-
 # Camera
 vendor/lib/hw/camera.trinket.so
 vendor/lib/imx386_PdafLibrary.so
