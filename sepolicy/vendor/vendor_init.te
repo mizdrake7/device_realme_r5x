@@ -26,8 +26,9 @@ set_prop(vendor_init, vendor_power_prop)
 
 get_prop(vendor_init, oppo_debug_prop)
 
-# Allow vendor init to access persist.vendor.fingerprint.fp_id
+# Allow vendor init to access and modify persist.vendor.fingerprint.fp_id
 get_prop(vendor_init, oppo_fingerprint_prop) 
+set_prop(vendor_init, oppo_fingerprint_prop)
 
 # Allow vendor_init to get and set vendor_camera_prop
 get_prop(vendor_init, vendor_camera_prop)
