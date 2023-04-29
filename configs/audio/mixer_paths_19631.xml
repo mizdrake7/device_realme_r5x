@@ -368,8 +368,8 @@
     <ctl name="TX_DEC7 Volume" value="102" />
 
     <ctl name="ADC1 Volume" value="20" />
-    <ctl name="ADC2 Volume" value="18" />
-    <ctl name="ADC3 Volume" value="18" />
+    <ctl name="ADC2 Volume" value="20" />
+    <ctl name="ADC3 Volume" value="20" />
 
     <!-- Compander controls -->
     <ctl name="WSA_COMP1 Switch" value="0" />
@@ -2713,7 +2713,8 @@
     <path name="handset-mic">
         <path name="amic1" />
         <!-- Yue.Li@ODM_WT.MM.Audiodriver.HAL.1919162, 2020/03/27, Modify for audio -->
-        <ctl name="ADC1 Volume" value="7" />
+        <ctl name="ADC1Volume" value="20" />
+        <ctl name="TX_DEC0 Volume" value="90" />
     </path>
 
 <!--#ifdef VENDOR_EDIT-->
@@ -2805,14 +2806,14 @@
     <path name="headset-mic">
         <path name="amic2" />
         <!-- Yue.Li@ODM_WT.MM.Audiodriver.HAL.1919162, 2020/03/27, Modify for audio -->
-        <ctl name="ADC2 Volume" value="15" />
-        <ctl name="TX_DEC0 Volume" value="87" />
+        <ctl name="ADC2 Volume" value="20" />
+        <ctl name="TX_DEC0 Volume" value="90" />
     </path>
 
     <!-- KTV headset mic -->
     <path name="headset-mic-ktv">
         <path name="amic2" />
-        <ctl name="TX_DEC0 Volume" value="83" />
+        <ctl name="TX_DEC0 Volume" value="90" />
     </path>
 
     <path name="usb-headset-mic-ktv">
