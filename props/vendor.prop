@@ -183,6 +183,7 @@ debug.sdm.support_writeback=0
 vendor.display.disable_scaler=0
 vendor.display.disable_rotator_downscale=1
 debug.sf.enable_transaction_tracing=false
+debug.sf.enable_egl_image_tracker=1
 
 # Dolby
 vendor.audio.dolby.ds2.enabled=false
