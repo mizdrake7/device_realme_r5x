@@ -79,6 +79,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+        <permission name="android.permission.LOCATION_BYPASS"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.soundrecorder">
