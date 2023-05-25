@@ -209,6 +209,9 @@ ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=0
