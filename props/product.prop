@@ -25,6 +25,7 @@ bluetooth.profile.ccp.server.enabled=true
 bluetooth.profile.vcp.controller.enabled=true
 bluetooth.hardware.power.operating_voltage_mv=3300
 bluetooth.le.disable_apcf_extended_features=1
+persist.vendor.btstack.enable.lpa?=true
 
 # LMKD
 ro.config.low_ram=false
