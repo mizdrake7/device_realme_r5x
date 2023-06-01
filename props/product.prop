@@ -40,7 +40,7 @@ ro.lmk.swap_free_low_percentage=20
 ro.lmk.psi_complete_stall_ms=150
 
 # Graphics
-debug.hwui.renderer=skiagl
+debug.hwui.renderer=opengl
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
 debug.hwui.skia_atrace_enabled=false
