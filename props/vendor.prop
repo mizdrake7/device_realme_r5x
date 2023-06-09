@@ -290,6 +290,9 @@ ro.surface_flinger.enable_layer_caching=true
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SM6125
 
+# System Server
+arm64.memtag.process.system_server=off
+
 # Time
 persist.vendor.delta_time.enable=true
 
