@@ -173,9 +173,8 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack-service.example \
     gralloc.trinket \
     hwcomposer.trinket \
-    libdisplayconfig \
-    libdisplayconfig.vendor \
     libdisplayconfig.qti \
+    libdisplayconfig.system.qti \
     libtinyxml \
     libtinyxml2 \
     libvulkan \
