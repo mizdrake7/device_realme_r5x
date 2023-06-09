@@ -108,6 +108,12 @@ on boot
     # Freezer setup
     write /dev/freezer/frozen/freezer.killable 1
 
+    # Allow system to manipulate KProfiles modes and parameters
+    chown system system /sys/module/kprofiles/parameters/auto_kprofiles
+    chmod 0660 /sys/module/kprofiles/parameters/auto_kprofiles
+    chown system system /sys/module/kprofiles/parameters/kp_mode
+    chmod 0660 /sys/module/kprofiles/parameters/kp_mode
+
 # Add a cpuset for the camera daemon
 # We want all cores for camera
     mkdir /dev/cpuset/camera-daemon

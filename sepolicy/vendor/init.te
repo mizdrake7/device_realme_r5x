@@ -22,3 +22,6 @@ allow init egis_device:chr_file { ioctl };
 
 # Allow init to access /proc/fp_id
 allow init proc_oppo_fp:file rw_file_perms;
+
+# Allow init to set attribute to sysfs_kprofiles
+allow init sysfs_kprofiles:file { setattr };
