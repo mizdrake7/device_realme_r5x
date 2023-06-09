@@ -336,7 +336,21 @@ PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0-service \
     libstagefright_omx.vendor \
     android.hardware.media.bufferpool@1.0.vendor \
-    android.hardware.media.c2@1.1.vendor
+    android.hardware.media.c2@1.2.vendor \
+    libcodec2_hidl@1.0.vendor \
+    libcodec2_vndk.vendor \
+    libcodec2_soft_avcdec \
+    libcodec2_soft_avcenc \
+    libcodec2_soft_h263dec \
+    libcodec2_soft_h263enc \
+    libcodec2_soft_mpeg4dec \
+    libcodec2_soft_mpeg4enc \
+    libcodec2_soft_vp8dec \
+    libcodec2_soft_vp8enc \
+    libcodec2_soft_vp9dec \
+    libcodec2_soft_vp9enc \
+    libcodec2_soft_hevcdec \
+    libcodec2_soft_hevcenc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
