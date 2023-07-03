@@ -191,18 +191,6 @@ on charger
     setprop vendor.usb.controller 4e00000.dwc3
     setprop sys.usb.configfs 1
 
-    # Switch to Powersave governor on charger mode
-    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor powersave
-    write /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor powersave
-
-    # Keep one LITTLE and one BIG
-    write /sys/devices/system/cpu/cpu1/online 0
-    write /sys/devices/system/cpu/cpu2/online 0
-    write /sys/devices/system/cpu/cpu3/online 0
-    write /sys/devices/system/cpu/cpu5/online 0
-    write /sys/devices/system/cpu/cpu6/online 0
-    write /sys/devices/system/cpu/cpu7/online 0
-
 on property:sys.boot_from_charger_mode=1
     class_stop charger
 
