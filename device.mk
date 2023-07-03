@@ -121,7 +121,8 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
     libdng_sdk.vendor \
     android.hardware.camera.common@1.0.vendor \
-    android.hardware.camera.metadata@3.5.vendor
+    android.hardware.camera.metadata@3.5.vendor \
+    ApertureCam
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
@@ -376,6 +377,10 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml
+
+# Muzix
+PRODUCT_PACKAGES += \
+    Muzix
 
 # Netutils
 PRODUCT_PACKAGES += \
