@@ -609,6 +609,9 @@ PRODUCT_PACKAGES += \
     libadf.vendor \
     libtinyxml.vendor
 
+# Viper4Android
+$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Remove Unwanted Packages
 PRODUCT_PACKAGES += \
     rmpkgs
