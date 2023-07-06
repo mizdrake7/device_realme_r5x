@@ -79,11 +79,6 @@ ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=1024
 ro.hwui.render_ahead=20
 
-# Iorap
-vendor.iop.enable_prefetch_ofr=0
-iorapd.perfetto.enable=false
-iorapd.readahead.enable=false
-
 # VSync
 debug.cpurend.vsync=false
 
