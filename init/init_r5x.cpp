@@ -121,28 +121,28 @@ void setRMX(unsigned int variant)
     prop[0] = {
         "realme/RMX1911/RMX1911:10/QKQ1.200209.002/1608537052:user/release-keys",
         "RMX1911",
-        "RMX1911",
+        "Realme 5",
     };
 
     // RMX1925
     prop[1] = {
         "realme/RMX1925/RMX1925:10/QKQ1.200209.002/1608537052:user/release-keys",
         "RMX1925",
-        "RMX1925",
+        "Realme 5s",
     };
 
     //RMX1927
     prop[2] = {
         "realme/RMX1927/RMX1927:10/QKQ1.200209.002/1608537052:user/release-keys",
         "RMX1927",
-        "RMX1927",
+        "Realme 5 NFC",
     };
 
     //RMX2030
     prop[3] = {
         "realme/RMX2030/RMX2030:10/QKQ1.200209.002/1608537052:user/release-keys",
         "RMX2030",
-        "RMX2030",
+        "Realme 5i",
     };
 
     const auto set_ro_build_prop = [](const std::string &source,
