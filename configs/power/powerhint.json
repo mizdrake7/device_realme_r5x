@@ -249,12 +249,6 @@
       "Value": "1305600"
     },
     {
-      "PowerHint": "INTERACTION",
-      "Node": "CPUBigClusterMinFreq",
-      "Duration": 500,
-      "Value": "1401600"
-    },
-    {
       "PowerHint": "DEVICE_IDLE",
       "Node": "F2fsRecessModeEnable",
       "Duration": 0,
