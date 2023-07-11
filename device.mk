@@ -96,7 +96,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.xml \
-    frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml
+    frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
+    $(LOCAL_PATH)/configs/bluetooth/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
 # Binder
 PRODUCT_PACKAGES += \
@@ -423,8 +424,7 @@ PRODUCT_PACKAGES += \
     SystemUIOverlayR5x \
     WifiOverlayR5x \
     FrameworksOverlayR5x \
-    TetheringCOverlayR5x \
-    BluetoothOverlayR5x
+    TetheringCOverlayR5x
 
 # Power
 PRODUCT_PACKAGES += \
