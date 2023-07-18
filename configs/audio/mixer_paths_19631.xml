@@ -2786,6 +2786,8 @@
         <!-- Yue.Li@ODM_WT.MM.Audiodriver.HAL.1919162, 2020/03/27, Modify for audio -->
         <ctl name="RX_RX0 Digital Volume" value="81" />
         <ctl name="RX_RX1 Digital Volume" value="81" />
+        <ctl name="RX_HPH_PWR_MODE" value="LOHIFI" />
+        <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
     </path>
 
     <path name="headphones-44.1">
@@ -2795,7 +2797,7 @@
 
     <path name="hph-highquality-mode">
         <ctl name="RX_HPH_PWR_MODE" value="LOHIFI" />
-        <ctl name="RX HPH Mode" value="CLS_H_LOHIFI" />
+        <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
     </path>
 
     <path name="hph-lowpower-mode">
