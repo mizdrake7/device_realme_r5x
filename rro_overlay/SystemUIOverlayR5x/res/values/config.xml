@@ -81,4 +81,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <string name="quick_settings_tiles_stock" translatable="false">
         wifi,cell,location,bt,airplane,sync,rotation,dark,dnd,ambient_display,hotspot,cast,flashlight,reduce_brightness,mictoggle,cameratoggle,screenshot,screenrecord,onthego,soundsearch,alarm,internet,dataswitch,battery,saver,smartpixels,inversion,night,reverse,reading_mode,heads_up,caffeine,aod,wallet,fpsinfo,cpuinfo,sound,mono,livedisplay,usb-tether,vpn,reboot,compass,locale,music,controls,anti_flicker,work
     </string>
+
+    <!-- The CPU temperature divider, if needed -->
+    <integer name="config_cpuTempDivider" translatable="false">1000</integer>
 </resources>
