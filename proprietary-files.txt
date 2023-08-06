@@ -2020,11 +2020,11 @@ vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|000e0d2ac4450c0ad8baca06985bc
 vendor/lib64/vendor.qti.latency@2.0.so|afcde314af1157cd049192df85dbf5edb603a4b1
 vendor/lib64/vendor.qti.latency@2.1.so|94f65ac08f0ef678dd82c60532c06a456d206707
 
-# ConfigStore - from LA.UM.9.11.r1-03900-NICOBAR.0
-vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|a80c7a4a326011b02edc5083b1a5bbcf7812299b
+# ConfigStore - from LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|c96269d845db307474f5db98e6f7e46204752aa0
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
-vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|4d9ae1ef925f3f029dadc41012f014d478c46c75
-vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|4f4cf2014719b8d95816046df46ffcd22f14e3d5
+vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|875b97e2bbbdb6f7d907d58269d4cb4d9f204413
+vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|773c888f0755fade3a4c1ae27a44bd1fdc465afa
 
 # Dirac - from Xiaomi
 vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
@@ -2852,6 +2852,9 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|16dc51cd62ce73adebdff600e764da481504962f
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|fc6047f4390979bd633f60bf74e637f3b44cadc8
 
-# WiFi
-vendor/bin/cnss-daemon
+# WiFi - from LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/cnss-daemon|a32c66984f3ec7e4b12406c56500a36a3571f087
+vendor/bin/wifilearner|f728fd2f5f3cf315997577a395f82fc9d263b701
+vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc|aacefc44da5e64760bc12779a83b905ca6b78f01
 vendor/firmware/wlan/qca_cld/wlan_mac.bin|1f61869bf533036d365b019c7bf60dfb814db025
+vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so|6c97745c1ea800bfa01f68a3468e6c7be08a978e
