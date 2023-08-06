@@ -57,9 +57,6 @@ persist.vendor.dpmhalservice.enable=1
 # Data
 persist.data.df.dev_name=rmnet_usb0
 
-# Fwk detect
-ro.vendor.qti.va_odm.support=1
-
 # Graphics
 debug.cpurend.vsync=false
 vendor.gralloc.disable_ahardware_buffer=1
