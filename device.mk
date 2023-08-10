@@ -416,7 +416,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    ApertureOverlay \
+    FlashOverlay \
     CarrierConfigOverlayR5x \
     TelephonyOverlayR5x \
     SettingsProviderOverayR5x \

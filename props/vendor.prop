@@ -144,7 +144,7 @@ persist.vendor.dualcam.lpm.enable=0
 persist.vendor.camera.perflock.enable=0
 vendor.camera.not.cts.apk=1
 vendor.camera.not.ctsverify.apk=1
-vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture.dev,org.lineageos.aperture
+vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture.dev,com.voltage.flash
 
 # Crypto
 ro.crypto.allow_encrypt_override=true
