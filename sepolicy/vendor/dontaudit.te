@@ -2,6 +2,10 @@
 # target API level < Q.
 dontaudit untrusted_app ashmem_device:chr_file open;
 
+# Google Battery HAL
+dontaudit platform_app default_android_hwservice:hwservice_manager find;
+dontaudit platform_app default_android_service:service_manager find;
+
 # Ignore harmless QCOM denials
 dontaudit {
   init
