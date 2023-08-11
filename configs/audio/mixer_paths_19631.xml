@@ -136,7 +136,7 @@
     <ctl name="WSA_AIF_VI Mixer WSA_SPKR_VI_1" value="0" />
     <ctl name="WSA_CDC_DMA_RX_0 Format" value="UNPACKED" />
     <ctl name="WSA_CDC_DMA_TX_0 Format" value="UNPACKED" />
-    <ctl name="RX_CDC_DMA_RX_0 Format" value="UNPACKED" />
+    <ctl name="RX_CDC_DMA_RX_0 Format" value="S16_LE" />
     <ctl name="TX_CDC_DMA_TX_3 Format" value="UNPACKED" />
     <!-- HFP start -->
     <ctl name="HFP_SLIM7_UL_HL Switch" value="0" />
@@ -548,10 +548,12 @@
 
     <path name="deep-buffer-playback">
         <ctl name="RX_CDC_DMA_RX_0 Audio Mixer MultiMedia1" value="1" />
+        <ctl name="RX_CDC_DMA_RX_0 Format" value="S24_3LE"/>
     </path>
 
     <path name="deep-buffer-playback handset">
         <ctl name="RX_CDC_DMA_RX_0 Audio Mixer MultiMedia1" value="1" />
+        <ctl name="RX_CDC_DMA_RX_0 Format" value="S24_3LE"/>
     </path>
 
     <path name="deep-buffer-playback speaker-protected">
@@ -609,6 +611,7 @@
 
     <path name="deep-buffer-playback headphones">
         <ctl name="RX_CDC_DMA_RX_0 Audio Mixer MultiMedia1" value="1" />
+        <ctl name="RX_CDC_DMA_RX_0 Format" value="S24_3LE"/>
     </path>
 
     <path name="deep-buffer-playback speaker-and-headphones">
