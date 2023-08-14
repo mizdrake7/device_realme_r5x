@@ -38,4 +38,7 @@
 
     <!-- Adjust the icon padding in status bar for rounded corners --> 
     <dimen name="rounded_corner_content_padding">14.0dip</dimen>
+
+    <!-- Starting padding for a left-aligned quick status bar clock -->
+    <dimen name="status_bar_left_clock_starting_padding">0dp</dimen>
 </resources>
