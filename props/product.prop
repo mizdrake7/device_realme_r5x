@@ -12,6 +12,7 @@ debug.hwui.renderer=opengl
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
 debug.hwui.skia_atrace_enabled=false
+debug.stagefright.renderengine.backend=threaded
 
 # Kill Logspams
 persist.vendor.ims.disableADBLogs=1
