@@ -9,10 +9,10 @@ ro.lmk.log_stats=false
 
 # Graphics
 debug.hwui.renderer=opengl
-debug.renderengine.backend=skiaglthreaded
+debug.renderengine.backend=skiagl
 renderthread.skia.reduceopstasksplitting=true
 debug.hwui.skia_atrace_enabled=false
-debug.stagefright.renderengine.backend=threaded
+debug.stagefright.renderengine.backend=gles
 
 # Kill Logspams
 persist.vendor.ims.disableADBLogs=1
