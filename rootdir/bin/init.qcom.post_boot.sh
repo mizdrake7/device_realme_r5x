@@ -1235,6 +1235,8 @@ case "$target" in
     "msm8909" | "msm8916" | "msm8937" | "msm8952" | "msm8953" | "msm8994" | "msm8992" | "msm8996" | "msm8998" | "sdm660" | "apq8098_latv" | "sdm845" | "sdm710" | "msmnile" | "msmsteppe" | "sm6150" | "kona" | "lito" | "trinket" | "atoll" | "bengal" | "sdmshrike")
         # Enable PowerHAL hint processing
         setprop vendor.powerhal.init 1
+        # Specify PowerHAL config file
+        setprop vendor.powerhal.config "powerhint.json"
     ;;
     "apq8084")
         rm /data/system/perfd/default_values
