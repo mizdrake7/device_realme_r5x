@@ -209,7 +209,18 @@ void set_avoid_gfxaccel_config() {
     }
 }
 
+void set_low_ram_config() {
+    struct sysinfo sys;
+    sysinfo(&sys);
+
+    if (sys.totalram <= 3072ull * 1024 * 1024) {
+        // Low ram
+        property_override("ro.config.low_ram", "true");
+    }
+}
+
 void vendor_load_properties() {
+    set_low_ram_config();
     set_avoid_gfxaccel_config();
     init_device_model();
     init_fp_properties();
