@@ -2787,7 +2787,7 @@
         <ctl name="RX_RX0 Digital Volume" value="81" />
         <ctl name="RX_RX1 Digital Volume" value="81" />
         <ctl name="RX_HPH_PWR_MODE" value="LOHIFI" />
-        <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
+        <ctl name="RX HPH Mode" value="CLS_AB_HIFI" />
     </path>
 
     <path name="headphones-44.1">
@@ -2797,7 +2797,7 @@
 
     <path name="hph-highquality-mode">
         <ctl name="RX_HPH_PWR_MODE" value="LOHIFI" />
-        <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
+        <ctl name="RX HPH Mode" value="CLS_AB_HIFI" />
     </path>
 
     <path name="hph-lowpower-mode">
