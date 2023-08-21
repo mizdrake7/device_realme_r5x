@@ -540,19 +540,13 @@ on property:sys.boot_completed=1
     # Enable suspend to RAM
     write /sys/power/mem_sleep "s2idle"
 
-# Include logger service
-service logger /system/bin/logcat -b all -D -f /cache/boot_log.txt
+# Include debug_dmesg service
+service debug_dmesg /system/bin/sh -c "dmesg -w > /cache/boot_dmesg.txt"
     class main
     user root
     group root system
     disabled
     oneshot
 
-on post-fs-data
-    # Clear existing log and start the service
-    rm /cache/boot_log.txt
-    start logger
-
-on property:sys.boot_completed=1
-    # Stop the logger service
-    stop logger
+on charger
+    start debug_dmesg
