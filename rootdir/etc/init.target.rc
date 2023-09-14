@@ -277,7 +277,6 @@ service cdsprpcd /vendor/bin/cdsprpcd
    class main
    user system
    group system
-   disabled
 
 #service audiod /vendor/bin/audiod
 #   class late_start
