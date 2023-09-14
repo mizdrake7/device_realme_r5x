@@ -277,7 +277,6 @@ service cdsprpcd /vendor/bin/cdsprpcd
    class main
    user system
    group system
-   task_profiles ServiceCapacityLow
 
 #service audiod /vendor/bin/audiod
 #   class late_start
