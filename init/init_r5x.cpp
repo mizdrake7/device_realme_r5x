@@ -60,6 +60,7 @@ struct r5x_props
     std::string build_fingerprint;
     std::string device_build;
     std::string product_device;
+    std::string sku;
 };
 
 std::vector<std::string> ro_props_default_source_order = {
@@ -136,6 +137,7 @@ void setRMX(unsigned int variant)
         "realme/RMX1927/RMX1927:10/QKQ1.200209.002/1608537052:user/release-keys",
         "RMX1927",
         "Realme 5 NFC",
+        "nfc_ese",
     };
 
     //RMX2030
@@ -165,6 +167,11 @@ void setRMX(unsigned int variant)
         set_ro_product_prop(source, "model", prop[variant].device_build.c_str());
     }
     property_override("ro.bootimage.build.fingerprint", prop[variant].build_fingerprint.c_str());
+
+    if (!prop[variant].sku.empty())
+    {
+        property_override("ro.boot.product.hardware.sku", prop[variant].sku.c_str());
+    }
 }
 
 void init_device_model()
