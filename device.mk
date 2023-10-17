@@ -575,6 +575,9 @@ PRODUCT_PACKAGES += \
 # Speed profile services and wifi-service to reduce RAM and storage.
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 
+# SystemUI
+EXCLUDE_SYSTEMUI_TESTS := true
+
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service \
