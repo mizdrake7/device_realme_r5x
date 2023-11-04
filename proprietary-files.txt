@@ -2096,10 +2096,10 @@ vendor/lib/vendor.qti.hardware.fm@1.0.so|aad3ef11a2fa41bb5a2bf25f8960c53ac3e0f8a
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|802d476fa0d583ddd01b1ade3bad45538b27b357
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|3b84d5fe4ee3c39e15a09b5b9868b99183cdffe0
 
-# Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+# Gatekeeper - from qssi-user-11-RKQ1.200903.002-1651143221904-release-keys
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|de1e8d026b16255040dbe6eb67faa73c9b656553
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|74ff564ec413866644361401ef5cf8d55846ead5
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|4d4ad0388d44d4a2387d72a52b970cc6ea851acf
 
 # GPS - from LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/bin/garden_app|f811ffda5b09534277a44b849428182055674c84
@@ -2300,13 +2300,15 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
-# Keystore
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
-vendor/lib64/libqtikeymaster4.so
+# Keystore - from qssi-user-11-RKQ1.200903.002-1651143221904-release-keys
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|8de64be44b03d77d6f9a0bc62cd7019e21e20735
+vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6b362059e9a6ebd023de98f
+vendor/lib/libqcbor.so|6f90ae6aee92a4a09b34432cb6b95dc1977f4772
+vendor/lib64/libkeymasterdeviceutils.so|e18e85743b559afd0a0638568ba149bd045f8250
+vendor/lib64/libkeymasterprovision.so|8ca3e21fb270f6ef9075fbf93c9263f24fc3d0c4
+vendor/lib64/libkeymasterutils.so|db21b2fec8e5808c562665746d0394575004070b
+vendor/lib64/libqcbor.so|df6a3f00d7d49e482e0ca2937f5bd708fba32ae6
+vendor/lib64/libqtikeymaster4.so|a338e67abfd6facf66577f3c61404e46ec81669d
 
 # Listen - from LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/lib/libadpcmdec.so|297d8fecff85b6dc67ff19e788bcf3f1286014a0
