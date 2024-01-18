@@ -32,6 +32,7 @@ import androidx.preference.TwoStatePreference;
 import com.realmeparts.settings.audio.SoundControlSettingsActivity;
 import com.realmeparts.settings.kcal.KCalSettingsActivity;
 import com.realmeparts.settings.vibration.VibratorStrengthPreference;
+import com.realmeparts.settings.display.LcdFeaturesPreferenceActivity;
 
 public class RealmeParts extends PreferenceFragment {
 
@@ -41,9 +42,12 @@ public class RealmeParts extends PreferenceFragment {
     public static final String PREF_OTG_SWITCH = "otg";
     public static final String USB_OTG_SWITCH_PATH = "/sys/class/power_supply/usb/otg_switch";
 
+    private static final String PREF_LCD_FEATURES = "lcd_features_settings";
+
     private static TwoStatePreference mUSBFastChgModeSwitch;
     private static TwoStatePreference mOTGModeSwitch;
     private Preference mAudioPref;
+    private Preference mLcdFeaturesPref;
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
@@ -66,6 +70,13 @@ public class RealmeParts extends PreferenceFragment {
                 startActivity(intent);
                 return true;
             }
+        });
+
+       mLcdFeaturesPref = (Preference) findPreference(PREF_LCD_FEATURES);
+        mLcdFeaturesPref.setOnPreferenceClickListener(preference -> {
+            Intent intent = new Intent(getActivity().getApplicationContext(), LcdFeaturesPreferenceActivity.class);
+            startActivity(intent);
+            return true;
         });
 
         mAudioPref = findPreference("sound");
