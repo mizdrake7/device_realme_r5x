@@ -698,4 +698,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <fqname>@1.0::ISecureElement/SIM1</fqname>
         <fqname>@1.0::ISecureElement/SIM2</fqname>
     </hal>
+    <hal format="hidl">
+        <name>vendor.oppo.hardware.radio.opporadio</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IOppoRadio/oppo_slot1</fqname>
+        <fqname>@1.0::IOppoRadio/oppo_slot2</fqname>
+    </hal>
 </manifest>
