@@ -253,6 +253,7 @@ PRODUCT_PACKAGES += \
     libbatching \
     libgeofencing \
     libloc_net_iface \
+    libloc_net_iface.vendor \
     liblocdiagiface \
     libgnss \
     apdr.conf \
