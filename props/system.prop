@@ -79,6 +79,9 @@ ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=1024
 ro.hwui.render_ahead=20
 
+# Incremental FS
+ro.incremental.enable=1
+
 # VSync
 persist.hwc.enable_vds=0
 debug.cpurend.vsync=false
