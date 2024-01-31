@@ -71,7 +71,6 @@ on late-fs
     start bootanim
 
     start vendor.hwcomposer-2-4
-    start vendor.configstore-hal
     start vendor.gralloc-2-0
     start vendor.qti.hardware.display.allocator
 
