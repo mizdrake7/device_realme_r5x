@@ -78,7 +78,7 @@ vendor.audio.feature.wsa.enable=false
 vendor.fastrpc.disable.adsprpcd_sensorspd.daemon=1
 
 # Bluetooth
-persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
+persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive
 persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=false
 persist.vendor.qcom.bluetooth.enable.splita2dp=false
 persist.vendor.qcom.bluetooth.scram.enabled=true
@@ -114,7 +114,6 @@ persist.vendor.btstack.enable.lpa?=true
 # Camera
 persist.vendor.camera.preview.ubwc=0
 vendor.video.disable.ubwc=1
-vidc.enc.dcvs.extra-buff-count=2
 camera.disable_zsl_mode=1
 persist.vendor.camera.isp.clock.optmz=0
 persist.vendor.camera.isp.turbo=1
@@ -154,8 +153,6 @@ ro.crypto.volume.metadata.method=dm-default-key
 ro.crypto.volume.options=::v2
 
 # Dalvik
-ro.vendor.qti.am.reschedule_service=true
-ro.sys.fw.dex2oat_thread_count=8
 dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
 dalvik.vm.boot-dex2oat-threads=8
 dalvik.vm.dex2oat-threads=8
@@ -165,7 +162,6 @@ dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7
 dalvik.vm.image-dex2oat-filter=quicken
 dalvik.vm.image-dex2oat-threads=8
 dalvik.vm.dexopt.secondary=true
-persist.bg.dexopt.enable=true
 dalvik.vm.dex2oat-minidebuginfo=false
 dalvik.vm.minidebuginfo=false
 
