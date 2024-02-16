@@ -561,11 +561,6 @@ on property:persist.sys.radio.mobile_data_swap=1
     exec /bin/sleep 2
     restart vendor.qcrild2
 
-# corefile limit
-on property:persist.debug.trace=1
-    mkdir /data/core 0777 root root
-    write /proc/sys/kernel/core_pattern "/data/core/%E.%p.%e"
-
 on property:vendor.bluetooth.dun.status=running
     start vendor.bt-dun
 
