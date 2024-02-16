@@ -584,12 +584,7 @@ PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 EXCLUDE_SYSTEMUI_TESTS := true
 
 # Vibrator
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service \
-    android.hardware.vibrator@1.3.vendor
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/input/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
+$(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.mk)
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
