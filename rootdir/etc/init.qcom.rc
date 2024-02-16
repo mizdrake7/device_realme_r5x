@@ -284,6 +284,9 @@ on boot
     # Power supply
     chmod 0660 /sys/class/power_supply/battery/input_suspend
 
+    # Disable serial console
+    setprop init.svc.console stopped
+
 # msm specific files that need to be created on /data
 on post-fs-data
     mkdir /data/vendor/misc 01771 system system
