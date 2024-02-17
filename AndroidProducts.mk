@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022-2023 The CherishOS Project
+# Copyright (C) 2023-2024 The Afterlife Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_r5x.mk
+    $(LOCAL_DIR)/afterlife_r5x.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_r5x-user \
-    lineage_r5x-userdebug \
-    lineage_r5x-eng
+    afterlife_r5x-user \
+    afterlife_r5x-userdebug \
+    afterlife_r5x-eng
