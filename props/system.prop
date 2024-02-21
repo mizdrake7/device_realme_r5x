@@ -92,6 +92,9 @@ ro.incremental.enable=1
 persist.hwc.enable_vds=0
 debug.cpurend.vsync=false
 
+# Logs
+persist.log.tag.OpenGLRenderer=S
+
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 debug.stagefright.ccodec=1
