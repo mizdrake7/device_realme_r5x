@@ -61,6 +61,10 @@ persist.data.df.dev_name=rmnet_usb0
 debug.cpurend.vsync=false
 vendor.gralloc.disable_ahardware_buffer=1
 
+# Fling
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
+
 # hwui properties
 ro.hwui.texture_cache_size=72
 ro.hwui.layer_cache_size=48

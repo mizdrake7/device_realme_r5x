@@ -218,8 +218,6 @@ vendor.product.manufacturer=OPD
 drm.service.enabled=true
 
 # Fling
-ro.min.fling_velocity=10000
-ro.max.fling_velocity=20000
 windowsmgr.max_events_per_sec=100
 ro.vendor.qti.cgroup_follow.enable=true
 persist.vendor.qti.inputopts.enable=true
