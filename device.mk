@@ -131,8 +131,7 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
     libdng_sdk.vendor \
     android.hardware.camera.common@1.0.vendor \
-    android.hardware.camera.metadata@3.5.vendor \
-    ApertureCam
+    android.hardware.camera.metadata@3.5.vendor
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
