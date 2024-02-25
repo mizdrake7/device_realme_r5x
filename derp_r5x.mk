@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023-202 The Afterlife Project
+# Copyright (C) 2022-2023 The DerpFest-AOSP Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,9 +17,10 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common Halloween stuff
-$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
+# Inherit some common Derped stuff
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit from r5x device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -32,10 +33,10 @@ TARGET_SUPPORTS_QUICK_TAP := true
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := r5x
 PRODUCT_MANUFACTURER := Realme
-PRODUCT_NAME := afterlife_r5x
+PRODUCT_NAME := derp_r5x
 PRODUCT_MODEL := Realme 5 Series
 
-PRODUCT_GMS_CLIENTID_BASE := android-oppo
+PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 TARGET_VENDOR_PRODUCT_NAME := r5x
 TARGET_VENDOR_DEVICE_NAME := r5x
@@ -44,12 +45,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="r5x" \
     PRIVATE_BUILD_DESC="unknown-user 10 QKQ1.200209.002 unknown release-keys"
 
-# Afterlife Flags
-AFTERLIFE_GAPPS := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-AFTERLIFE_CORE := true
-AFTERLIFE_EXTRA := true
-BUILD_GALLERYGO := true
-BUILD_GMAIL := false
-BUILD_GCALC := true
-AFTERLIFE_MAINTAINER := MAdMiZ
+# Derped Stuff
+DERP_BUILDTYPE := Unofficial
