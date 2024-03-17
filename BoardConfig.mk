@@ -210,6 +210,8 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 SELINUX_IGNORE_NEVERALLOWS := true
 SELINUX_IGNORE_NEVERALLOWS_ON_USER := true
+BOARD_SEPOLICY_M4DEFS += \
+     sysfs_battery_supply=vendor_sysfs_battery_supply
 
 # SurfaceFlinger
 TARGET_USE_AOSP_SURFACEFLINGER := true
