@@ -131,7 +131,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.6.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
     libcamera2ndk_vendor \
-    libstdc++.vendor \
+    libstdc++_vendor \
     libdng_sdk.vendor \
     android.hardware.camera.common@1.0.vendor \
     android.hardware.camera.metadata@3.5.vendor
