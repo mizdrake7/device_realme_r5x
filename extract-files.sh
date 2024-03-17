@@ -57,9 +57,11 @@ function blob_fixup() {
     case "${1}" in
         vendor/bin/hw/android.hardware.health@2.0-service.oppo)
             patchelf --replace-needed "libutils.so" "libutils-v30.so" "${2}"
+            patchelf --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
             ;;
         vendor/bin/hw/android.hardware.health@2.0-service)
             patchelf --replace-needed "libutils.so" "libutils-v30.so" "${2}"
+            patchelf --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
             ;;
     esac
 }
