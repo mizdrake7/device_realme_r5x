@@ -588,6 +588,14 @@ EXCLUDE_SYSTEMUI_TESTS := true
 # Vibrator
 $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.mk)
 
+# VNDK
+PRODUCT_PRODUCT_VNDK_VERSION := current
+PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
+
+PRODUCT_PACKAGES += \
+    vndk_package \
+    com.android.vndk.current.on_vendor
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
