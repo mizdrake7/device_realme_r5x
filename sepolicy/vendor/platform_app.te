@@ -1,4 +1,2 @@
-allow platform_app sysfs_graphics:file r_file_perms;
-
 # Zygote
 allow platform_app zygote:unix_stream_socket getopt;
