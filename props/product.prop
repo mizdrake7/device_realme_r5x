@@ -8,9 +8,6 @@ ro.com.google.ime.kb_pad_port_b=1
 ro.lmk.log_stats=false
 
 # Graphics
-debug.hwui.renderer=opengl
-debug.renderengine.backend=skiagl
-renderthread.skia.reduceopstasksplitting=true
 debug.hwui.skia_atrace_enabled=false
 debug.stagefright.renderengine.backend=gles
 debug.sf.disable_hwc_overlays=1
