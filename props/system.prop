@@ -68,6 +68,8 @@ persist.data.df.dev_name=rmnet_usb0
 # Graphics
 debug.cpurend.vsync=false
 vendor.gralloc.disable_ahardware_buffer=1
+ro.egl.blobcache.multifile=true
+ro.egl.blobcache.multifile_limit=335
 
 # Fling
 ro.min.fling_velocity=160
