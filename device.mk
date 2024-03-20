@@ -494,6 +494,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RealmeParts
 
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.4 \

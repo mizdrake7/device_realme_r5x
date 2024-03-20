@@ -60,13 +60,14 @@
             android:name=".RealmePartsTileService"
             android:icon="@drawable/ic_realmeparts_tile"
             android:label="@string/realmeparts"
+            android:exported="true"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
         </service>
 
-        <receiver android:name=".BootCompletedReceiver" android:exported="true">
+        <receiver android:name=".BootCompletedReceiver" android:exported="false">
             <intent-filter android:priority="1000">
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -77,6 +78,7 @@
             android:name=".UsbFastChgToggleService"
             android:icon="@drawable/ic_usb_fastcharge"
             android:label="@string/fastcharge_title"
+            android:exported="true"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action
@@ -88,6 +90,7 @@
             android:name=".OtgToggleService"
             android:icon="@drawable/ic_otg_tile"
             android:label="@string/tile_otg_mode"
+            android:exported="true"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE"/>
