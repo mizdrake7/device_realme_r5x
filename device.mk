@@ -34,9 +34,6 @@ PRODUCT_SOONG_NAMESPACES += \
 # APEX
 OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 # APN
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/apn/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
