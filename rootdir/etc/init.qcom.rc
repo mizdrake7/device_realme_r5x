@@ -61,6 +61,9 @@ on early-init
     rm /data/resource-cache
     rm /data/system/package_cache
 
+    # turn off vblank irq immediately after turning off
+    write /sys/module/drm/parameters/vblankoffdelay -1
+
 on init
 
     # Support legacy paths
