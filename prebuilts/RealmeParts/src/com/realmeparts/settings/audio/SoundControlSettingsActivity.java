@@ -17,7 +17,6 @@
 package com.realmeparts.settings.audio;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
-import com.android.settingslib.widget.R;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -36,7 +35,7 @@ public class SoundControlSettingsActivity extends CollapsingToolbarBaseActivity 
         if (fragment == null) {
             mSoundControlSettingsFragment = new SoundControlSettings();
             getFragmentManager().beginTransaction()
-                    .add(R.id.content_frame, mSoundControlSettingsFragment)
+                    .add(com.android.settingslib.collapsingtoolbar.R.id.content_frame, mSoundControlSettingsFragment)
                     .commit();
         } else {
             mSoundControlSettingsFragment = (SoundControlSettings) fragment;
