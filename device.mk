@@ -489,8 +489,8 @@ PRODUCT_PACKAGES += \
     RcsService
 
 # RealmeParts
-PRODUCT_PACKAGES += \
-    RealmeParts
+# PRODUCT_PACKAGES += \
+#    RealmeParts
 
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
